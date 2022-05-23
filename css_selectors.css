@@ -1,0 +1,36 @@
+body {
+    background-color: blue;
+    color: black;
+}
+
+section {
+    background-color: aqua;
+
+    display:inline-block;
+
+    box-sizing: content-box;
+    width: 40h;
+    height: 30%;
+    padding: 1em;
+    border: 10px solid black;
+    margin: 1em;   
+}
+
+#gp {
+    font-weight: 100;
+    color: red;
+}
+
+.waves {
+    font-family: cursive;
+}
+
+section:hover {
+    background-color: yellowgreen;
+    cursor:crosshair;
+    transition: all 0.5s;
+}
+
+section:active {
+    outline: 5px dashed royalblue
+}
